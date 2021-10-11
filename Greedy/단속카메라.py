@@ -1,6 +1,4 @@
 def solution(routes):
-    answer = 1
-    
     routes.sort()
     interval = [[routes[0][0], routes[0][1]]]
     routes.pop(0)
